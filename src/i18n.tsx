@@ -71,6 +71,29 @@ const en = {
     mcpTitle: "MCP server",
     mcpBody: "One streamable-HTTP endpoint. Tools: licence_lookup, licence_search, licence_sectors.",
   },
+  mcp: {
+    kicker: "Connect your agent",
+    title: "Put this data to work inside your AI tools.",
+    body: "Pick your harness, copy the prompt, send it to your agent. Your agent runs the setup itself.",
+    tabs: { chatgpt: "ChatGPT", claude: "Claude", claudecode: "Claude Code", cli: "CLI", other: "Other" },
+    cardTitle: "Copy and send this to {tab}",
+    copy: "Copy",
+    copied: "Copied",
+    chatgptNote: "ChatGPT connects through the documented REST API rather than MCP directly.",
+    pChatgpt:
+      "I want to use the {displayName} through its API.\n- OpenAPI spec: {origin}/api/openapi.json\n- REST base: {origin}/api/v1\nFirst tell me in two sentences what this API offers, then {exampleLower}, and show me the result.",
+    pClaude:
+      "In Claude (claude.ai), open Settings, then Connectors, and add a custom connector:\n- Name: {displayName}\n- URL: {origin}/mcp\nThen list the available tools, {exampleLower}, and show me the result.",
+    pClaudeCode:
+      "Set up the {displayName} MCP server so I can query it from here.\n1. Run: claude mcp add --transport http {slug} {origin}/mcp\n2. Run `claude mcp list` to confirm it connected.\n3. {example}, and show me the result.",
+    pCli:
+      "# MCP endpoint (streamable HTTP)\n{origin}/mcp\n\n# List the available tools\ncurl -s -X POST {origin}/mcp -H 'Content-Type: application/json' \\\n  -d '{\"jsonrpc\":\"2.0\",\"id\":1,\"method\":\"tools/list\"}'",
+    otherTitle: "Everything else",
+    otherBody: "Any harness that speaks MCP over streamable HTTP, or plain REST.",
+    mcpEndpoint: "MCP endpoint",
+    openapiSpec: "OpenAPI spec",
+    restBase: "REST base",
+  },
   downloads: {
     kicker: "Data",
     title: "Take the files.",
@@ -153,6 +176,29 @@ const fr: Dict = {
     openapi: "Spécification OpenAPI",
     mcpTitle: "Serveur MCP",
     mcpBody: "Un point de terminaison HTTP continu. Outils : licence_lookup, licence_search, licence_sectors.",
+  },
+  mcp: {
+    kicker: "Connectez votre agent",
+    title: "Exploitez ces données dans vos outils d'IA.",
+    body: "Choisissez votre plateforme, copiez l'invite, envoyez-la à votre agent. Votre agent exécute la configuration lui-même.",
+    tabs: { chatgpt: "ChatGPT", claude: "Claude", claudecode: "Claude Code", cli: "CLI", other: "Autre" },
+    cardTitle: "Copiez et envoyez ceci à {tab}",
+    copy: "Copier",
+    copied: "Copié",
+    chatgptNote: "ChatGPT se connecte via l'API REST documentée plutôt que directement en MCP.",
+    pChatgpt:
+      "Je veux utiliser {displayName} via son API.\n- Spécification OpenAPI : {origin}/api/openapi.json\n- Base REST : {origin}/api/v1\nD'abord, dis-moi en deux phrases ce que cette API offre, puis {exampleLower}, et montre-moi le résultat.",
+    pClaude:
+      "Dans Claude (claude.ai), ouvre les paramètres, puis Connecteurs, et ajoute un connecteur personnalisé :\n- Nom : {displayName}\n- URL : {origin}/mcp\nEnsuite, liste les outils disponibles, {exampleLower}, et montre-moi le résultat.",
+    pClaudeCode:
+      "Configure le serveur MCP {displayName} pour que je puisse l'interroger d'ici.\n1. Exécute : claude mcp add --transport http {slug} {origin}/mcp\n2. Exécute `claude mcp list` pour confirmer la connexion.\n3. {example}, et montre-moi le résultat.",
+    pCli:
+      "# Point de terminaison MCP (HTTP continu)\n{origin}/mcp\n\n# Lister les outils disponibles\ncurl -s -X POST {origin}/mcp -H 'Content-Type: application/json' \\\n  -d '{\"jsonrpc\":\"2.0\",\"id\":1,\"method\":\"tools/list\"}'",
+    otherTitle: "Tout le reste",
+    otherBody: "Toute plateforme qui parle MCP en HTTP continu, ou REST tout court.",
+    mcpEndpoint: "Point de terminaison MCP",
+    openapiSpec: "Spécification OpenAPI",
+    restBase: "Base REST",
   },
   downloads: {
     kicker: "Données",
