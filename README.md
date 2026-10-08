@@ -6,6 +6,12 @@ Toronto licenses businesses by local category names ("Eating or Drinking Establi
 
 An open-source civic project. Not affiliated with the Government of Canada or the City of Toronto.
 
+## Screenshots
+
+![Explorer: search 37,469 licences](docs/screenshots/tln-desktop-explorer.png)
+
+![Showcase: sector patterns by ward](docs/screenshots/tln-desktop-showcase.png)
+
 ## What the data shows
 
 - 37,469 active licences across 92 categories, mapped to 13 NAICS sectors. 99.99% of active licences sit in a mapped category.
