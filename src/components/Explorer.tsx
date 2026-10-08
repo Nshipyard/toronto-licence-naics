@@ -102,7 +102,7 @@ export default function Explorer({ sectors }: { sectors: Sector[] }) {
                 <tbody>
                   {hits.map((h, i) => (
                     <tr key={`${h.l}-${i}`} className="border-b border-line last:border-0 hover:bg-paper-warm">
-                      <td className="px-5 py-3.5 font-medium">{h.n || "—"}</td>
+                      <td className="px-5 py-3.5 font-medium">{h.n || "-"}</td>
                       <td className="px-5 py-3.5 text-ink/70">{h.c}</td>
                       <td className="px-5 py-3.5">
                         {h.naics_code ? (
@@ -110,11 +110,11 @@ export default function Explorer({ sectors }: { sectors: Sector[] }) {
                             {h.naics_code}
                           </span>
                         ) : (
-                          <span className="text-ink/40">—</span>
+                          <span className="text-ink/40">-</span>
                         )}
                       </td>
-                      <td className="px-5 py-3.5 text-ink/70">{h.w || "—"}</td>
-                      <td className="px-5 py-3.5 text-ink/70">{h.i || "—"}</td>
+                      <td className="px-5 py-3.5 text-ink/70">{h.w || "-"}</td>
+                      <td className="px-5 py-3.5 text-ink/70">{h.i || "-"}</td>
                     </tr>
                   ))}
                 </tbody>

@@ -16,10 +16,10 @@ An open-source civic project. Not affiliated with the Government of Canada or th
 
 ## Files
 
-- `data/licence_to_naics.csv` — the mapping table: 92 categories with NAICS code, sector, confidence, and mapping rule
-- `data/summary.json` — sector aggregates, top categories, ward breakdown, growth ranking, methodology notes
-- `data/licences_index.json` — trimmed index of the 37,469 active licences (operating name, category, ward, issued year, licence number)
-- `data/raw/` — the source CSV from the City of Toronto (not committed)
+- `data/licence_to_naics.csv` - the mapping table: 92 categories with NAICS code, sector, confidence, and mapping rule
+- `data/summary.json` - sector aggregates, top categories, ward breakdown, growth ranking, methodology notes
+- `data/licences_index.json` - trimmed index of the 37,469 active licences (operating name, category, ward, issued year, licence number)
+- `data/raw/` - the source CSV from the City of Toronto (not committed)
 
 ## Methodology
 
@@ -36,9 +36,9 @@ npm run dev
 
 REST under `/api/v1/licence/`:
 
-- `GET /api/v1/licence/search?q=tim&sector=72&limit=50` — search by business name or licence number, optional 2-digit NAICS sector filter
-- `GET /api/v1/licence/lookup?licence_no=B50-4202031` — full record for one licence, with its NAICS mapping
-- `GET /api/v1/licence/sectors` — licence counts by NAICS sector, top sectors per ward, growth ranking
+- `GET /api/v1/licence/search?q=tim&sector=72&limit=50` - search by business name or licence number, optional 2-digit NAICS sector filter
+- `GET /api/v1/licence/lookup?licence_no=B50-4202031` - full record for one licence, with its NAICS mapping
+- `GET /api/v1/licence/sectors` - licence counts by NAICS sector, top sectors per ward, growth ranking
 
 OpenAPI 3.1 spec at `/api/openapi.json`.
 
@@ -46,7 +46,7 @@ MCP (streamable HTTP, JSON-RPC 2.0): `POST /mcp` with tools `licence_lookup`, `l
 
 ## Author
 
-**Richardson Dackam** — [X (@richardsondx)](https://x.com/richardsondx) · [GitHub](https://github.com/richardsondx)
+**Richardson Dackam** - [X (@richardsondx)](https://x.com/richardsondx) · [GitHub](https://github.com/richardsondx)
 
 ## License
 

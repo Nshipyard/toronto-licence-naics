@@ -8,7 +8,7 @@ import "./globals.css";
 import { LangProvider } from "@/i18n";
 
 export const metadata: Metadata = {
-  title: "Toronto Licence NAICS — every business licence, mapped to its industry",
+  title: "Toronto Licence NAICS: every business licence, mapped to its industry",
   description:
     "Toronto's 37,469 active business licences joined to NAICS 2022 industry codes. Searchable explorer, sector analysis by ward, REST API, OpenAPI docs, and MCP tools. Open data, MIT licensed.",
 };
