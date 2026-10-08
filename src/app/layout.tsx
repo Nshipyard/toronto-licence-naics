@@ -8,9 +8,26 @@ import "./globals.css";
 import { LangProvider } from "@/i18n";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://licences.canada.nshipyard.com"),
   title: "Toronto Licence NAICS: every business licence, mapped to its industry",
   description:
     "Toronto's 37,469 active business licences joined to NAICS 2022 industry codes. Searchable explorer, sector analysis by ward, REST API, OpenAPI docs, and MCP tools. Open data, MIT licensed.",
+  openGraph: {
+    title: "Toronto Licence NAICS: every business licence, mapped to its industry",
+    description:
+      "Toronto's 37,469 active business licences joined to NAICS 2022 industry codes. Searchable explorer, sector analysis by ward, REST API, OpenAPI docs, and MCP tools. Open data, MIT licensed.",
+    url: "https://licences.canada.nshipyard.com",
+    siteName: "Toronto Licence NAICS",
+    images: [{ url: "/og-image.png", width: 1200, height: 750, alt: "Toronto Licence NAICS — business licences mapped to industry" }],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Toronto Licence NAICS: every business licence, mapped to its industry",
+    description:
+      "Toronto's 37,469 active business licences joined to NAICS 2022 industry codes. Searchable explorer, sector analysis by ward, REST API, OpenAPI docs, and MCP tools. Open data, MIT licensed.",
+    images: ["/og-image.png"],
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
