@@ -1,0 +1,93 @@
+licence_category,active_licences,total_licences,naics_code,naics_title,sector_code,sector_title,confidence,mapping_rule
+** Class record not on file. (138),4,4,,,,,none,Data artifact: placeholder category from the source system; no business activity described.
+ADULT ENTERTAINMENT CLUB,7,51,722410,Drinking places (alcoholic beverages),72,Accommodation and food services,close,NAICS has no adult-entertainment class; mapped by the primary licensed activity (alcohol service).
+ADVERTISING,0,1,541810,Advertising agencies,54,"Professional, scientific and technical services",close,Legacy category; mapped to the advertising services industry.
+AMUSEMENT ESTABLISHMENT,163,437,713120,Amusement arcades,71,"Arts, entertainment and recreation",close,Arcades and amusement venues; closest NAICS class is amusement arcades.
+AUCTIONEER,32,252,44,Retail trade,44,Retail trade,broad,NAICS 2022 has no dedicated auction class; mapped at sector level.
+AUTO SERVICE STATION,0,1,811111,General automotive repair,81,Other services (except public administration),close,"Legacy category; repair is the licensed activity, fuel retail secondary."
+BATH HOUSE,0,14,812190,Other personal care services,81,Other services (except public administration),close,NAICS has no bath-house class; mapped to personal care services.
+BILL DISTRIBUTOR,0,9,541870,Advertising material distribution services,54,"Professional, scientific and technical services",close,Flyer and bill distribution is advertising material distribution.
+BILLIARD HALL,0,177,713990,All other amusement and recreation industries,71,"Arts, entertainment and recreation",close,Billiard halls fall in the amusement catch-all.
+BOATS FOR HIRE,0,3,487210,"Scenic and sightseeing transportation, water",48,Transportation and warehousing,close,Charter boats map to water-based scenic transportation.
+BODY RUB PARLOUR,24,110,812190,Other personal care services,81,Other services (except public administration),close,NAICS has no adult-services class; mapped to personal care.
+BOWLING HOUSE,0,38,713950,Bowling centres,71,"Arts, entertainment and recreation",exact,Direct match.
+BUILDING CLEANER,0,40,561720,Janitorial services,56,"Administrative and support, waste management and remediation services",exact,Direct match.
+BUILDING RENOVATOR,1438,9062,236118,Residential remodelers,23,Construction,exact,Direct match.
+CARNIVAL,0,16,713990,All other amusement and recreation industries,71,"Arts, entertainment and recreation",close,Travelling carnivals fall in the amusement catch-all.
+CHIMNEY REPAIRMAN,0,20,238990,All other specialty trade contractors,23,Construction,close,Specialty trade with no dedicated class.
+CIRCUS,0,5,713990,All other amusement and recreation industries,71,"Arts, entertainment and recreation",close,Circuses fall in the amusement catch-all.
+CLOTHING DROP BOX LOCATION PERMIT,475,1246,459510,Used merchandise retailers,44,Retail trade,close,Site permit for used-clothing collection; the operator retails used goods.
+CLOTHING DROP BOX OPERATOR,13,25,459510,Used merchandise retailers,44,Retail trade,close,Operators sell donated used clothing.
+COLLECTOR OF SECOND HAND GOODS,0,66,459510,Used merchandise retailers,44,Retail trade,close,Used-goods trade.
+COMMERCIAL PARKING LOT,1011,2060,812930,Parking lots and garages,81,Other services (except public administration),exact,Direct match.
+CURB LANE CAFE,302,694,722511,Full-service restaurants,72,Accommodation and food services,close,Cafe patios licensed separately; same industry as restaurants.
+CURBLANE VENDING,15,34,44,Retail trade,44,Retail trade,broad,Curbside vending; no dedicated NAICS class.
+DRAIN CONTRACTOR,74,285,238220,"Plumbing, heating and air-conditioning contractors",23,Construction,close,Drain work is licensed under the plumbing trade.
+DRAIN LAYER,83,314,238220,"Plumbing, heating and air-conditioning contractors",23,Construction,close,Drain laying is licensed under the plumbing trade.
+DRIVE-SELF RENTAL OWNER,110,472,532111,Passenger car rental,53,Real estate and rental and leasing,exact,Car rental agencies.
+DRIVEWAY PAVING CONTRACTOR,82,349,238990,All other specialty trade contractors,23,Construction,close,Asphalt and paving specialty trade.
+DRIVING INSTRUCTOR (V),932,3136,611692,Automobile driving schools,61,Educational services,exact,Direct match.
+DRIVING SCHOOL OPERATOR (B),211,776,611692,Automobile driving schools,61,Educational services,exact,Direct match.
+DRIVING SCHOOL OPERATOR (V),19,148,611692,Automobile driving schools,61,Educational services,exact,Direct match.
+EATING OR DRINKING ESTABLISHMENT,7933,36671,722511,Full-service restaurants,72,Accommodation and food services,exact,Sit-down restaurants and bars serving food.
+ENTERTAINMENT ESTABLISHMENT/NIGHTCLUB,36,170,722410,Drinking places (alcoholic beverages),72,Accommodation and food services,close,Nightclubs' primary licensed activity is alcohol service.
+ENTERTAINMENT PLACE OF ASSEMBLY,128,445,713990,All other amusement and recreation industries,71,"Arts, entertainment and recreation",close,Assembly and event halls fall in the amusement catch-all.
+EXPANDED EATING/DRINKING ESTABLISHMENT,362,393,722511,Full-service restaurants,72,Accommodation and food services,close,Patio expansions of restaurants.
+EXPANDED ENTERTAINMENT PLACE OF ASSEMBLY,40,44,713990,All other amusement and recreation industries,71,"Arts, entertainment and recreation",close,Expanded assembly halls; same catch-all as the base category.
+HAWKER/PEDLAR ON FOOT,77,537,44,Retail trade,44,Retail trade,broad,Street vending; no dedicated NAICS class.
+HAWKER/PEDLAR WITH MOTOR VEHICLE,37,146,44,Retail trade,44,Retail trade,broad,Street vending; no dedicated NAICS class.
+HAWKER/PEDLAR WITH PUSH CART,55,95,44,Retail trade,44,Retail trade,broad,Street vending; no dedicated NAICS class.
+HEATING CONTRACTOR,135,803,238220,"Plumbing, heating and air-conditioning contractors",23,Construction,exact,Heating is within NAICS 238220.
+HOLISTIC CENTRE,301,2051,812190,Other personal care services,81,Other services (except public administration),close,Wellness and massage services; closest personal-care class.
+INSULATION INSTALLER,7,38,238310,Drywall and insulation contractors,23,Construction,exact,Direct match.
+LAUNDRY PREMISES,434,2252,812320,Dry-cleaning and laundry services (except coin-operated),81,Other services (except public administration),close,Laundry premises; the coin-operated subset would be 812310.
+LIMOUSINE OWNER,336,2335,485320,Limousine service,48,Transportation and warehousing,exact,Direct match.
+LIMOUSINE SERVICE COMPANY,13,239,485320,Limousine service,48,Transportation and warehousing,exact,Direct match.
+MARKETING DISPLAY,129,765,541850,Outdoor advertising,54,"Professional, scientific and technical services",close,Display advertising structures.
+MASTER HEATING INSTALLER,263,1432,238220,"Plumbing, heating and air-conditioning contractors",23,Construction,exact,Heating is within NAICS 238220.
+MASTER PLUMBER,961,3274,238220,"Plumbing, heating and air-conditioning contractors",23,Construction,exact,Direct match.
+MOBILE VENDING (FOOD TRUCK),35,362,722330,Mobile food services,72,Accommodation and food services,exact,Direct match.
+MOBILE VENDING (ICE CREAM TRUCK),46,593,722330,Mobile food services,72,Accommodation and food services,exact,Direct match.
+MOTOR VEHICLE RACING,0,2,713990,All other amusement and recreation industries,71,"Arts, entertainment and recreation",close,Race tracks fall in the amusement catch-all.
+MOTORIZED REFRESHMENT VEHICLE OWNER,274,1365,722330,Mobile food services,72,Accommodation and food services,exact,Direct match.
+NOISE EXEMPTION,0,4960,,,,,none,"Event and construction permit, not a business activity; excluded from sector totals."
+NON-MOTORIZED REFRESHMENT VEHICLE OWNER,203,1073,722330,Mobile food services,72,Accommodation and food services,exact,Direct match.
+PAWN SHOP,60,218,522298,All other non-depository credit intermediation,52,Finance and insurance,close,"NAICS classifies pawnshops as credit intermediation, not retail."
+PAYDAY LOAN,92,187,522390,Other activities related to credit intermediation,52,Finance and insurance,close,Payday lenders are credit intermediation.
+PEDICAB OWNER,56,267,485990,Other transit and ground passenger transportation,48,Transportation and warehousing,close,No pedicab class; ground-passenger catch-all.
+PERMANENT FIREWORKS VENDOR,7,31,459999,All other miscellaneous retailers,44,Retail trade,close,Specialty retail with no dedicated class.
+PERSONAL SERVICES SETTINGS,3556,11145,812190,Other personal care services,81,Other services (except public administration),close,"Licensed premises spanning barber, beauty, tattoo and aesthetics; 812190 is the umbrella personal-care class."
+PET SHOP,25,118,459910,Pet and pet supplies retailers,44,Retail trade,exact,Direct match.
+PLUMBING & HEATING CONTRACTOR,124,425,238220,"Plumbing, heating and air-conditioning contractors",23,Construction,exact,Direct match.
+PLUMBING CONTRACTOR,737,2370,238220,"Plumbing, heating and air-conditioning contractors",23,Construction,exact,Direct match.
+PRECIOUS METAL SHOP,95,415,458310,"Jewellery, luggage and leather goods retailers",44,Retail trade,close,Gold buyers; closest retail class is jewellery.
+PRIVATE PARKING ENFORCEMENT AGENCY,65,191,561612,Security guards and patrol services,56,"Administrative and support, waste management and remediation services",close,Enforcement patrol maps to security services.
+PRIVATE TRANSPORTATION COMPANY,5,14,485990,Other transit and ground passenger transportation,48,Transportation and warehousing,close,Ride-hail companies; no dedicated NAICS class.
+PUBLIC GARAGE,2987,11764,811111,General automotive repair,81,Other services (except public administration),close,Toronto 'public garage' licences are motor-vehicle repair shops.
+SECOND HAND SALVAGE SHOP,13,33,459510,Used merchandise retailers,44,Retail trade,close,Used-goods trade.
+SECOND HAND SALVAGE YARD,28,68,415310,Used motor vehicle parts and accessories merchant wholesalers,41,Wholesale trade,close,Auto salvage yards dismantle vehicles for used parts; StatCan NAICS 2022 code.
+SECOND HAND SHOP,266,1807,459510,Used merchandise retailers,44,Retail trade,exact,Direct match.
+SHORT TERM RENTAL COMPANY,4,5,531390,Other activities related to real estate,53,Real estate and rental and leasing,close,"Licensed intermediaries (platforms), not lodging operators."
+SIDEWALK CAFE,640,2484,722511,Full-service restaurants,72,Accommodation and food services,close,Sidewalk patios of restaurants.
+SIDEWALK VENDING,45,213,44,Retail trade,44,Retail trade,broad,Sidewalk vending; no dedicated NAICS class.
+SMOKE SHOP,27,315,459991,"Tobacco, electronic cigarette and other smoking supplies retailers",44,Retail trade,exact,NAICS 2022 added this class.
+SWIMMING POOL,0,3,713990,All other amusement and recreation industries,71,"Arts, entertainment and recreation",close,Commercial pools fall in the amusement catch-all.
+TAKE-OUT OR RETAIL FOOD ESTABLISHMENT,6446,26313,722512,Limited-service eating places,72,Accommodation and food services,close,Category spans take-out counters and small food retail; limited-service is the primary match.
+TAXICAB BROKER,20,113,485310,Taxi service,48,Transportation and warehousing,close,Dispatch brokerages; closest taxi class.
+TAXICAB OPERATOR,6,40,485310,Taxi service,48,Transportation and warehousing,exact,Direct match.
+TAXICAB OWNER,4215,9354,485310,Taxi service,48,Transportation and warehousing,exact,Direct match.
+TEMPORARY FIREWORKS VENDOR (OVER 25 KG),9,296,44,Retail trade,44,Retail trade,broad,Temporary seasonal retail; no dedicated class.
+TEMPORARY FIREWORKS VENDOR (UNDER 25 KG),5,167,44,Retail trade,44,Retail trade,broad,Temporary seasonal retail; no dedicated class.
+TEMPORARY LEASE FIREWORKS VENDOR,5,57,44,Retail trade,44,Retail trade,broad,Temporary seasonal retail; no dedicated class.
+TEMPORARY MOBILE FIREWORKS VENDOR,14,227,44,Retail trade,44,Retail trade,broad,Temporary seasonal retail; no dedicated class.
+TEMPORARY SIGN - A-FRAME,85,462,541850,Outdoor advertising,54,"Professional, scientific and technical services",close,Sign companies; outdoor advertising.
+TEMPORARY SIGN - GROUND-MOUNTED,0,3,541850,Outdoor advertising,54,"Professional, scientific and technical services",close,Sign companies; outdoor advertising.
+TEMPORARY SIGN - MOBILE,58,4468,541850,Outdoor advertising,54,"Professional, scientific and technical services",close,Sign companies; outdoor advertising.
+TEMPORARY SIGN - NEW DEVELOPMENT A-FRAME,0,203,541850,Outdoor advertising,54,"Professional, scientific and technical services",close,Sign companies; outdoor advertising.
+TEMPORARY SIGN - PORTABLE,11,25,541850,Outdoor advertising,54,"Professional, scientific and technical services",close,Sign companies; outdoor advertising.
+TEMPORARY SIGN PROVIDER,8,41,541850,Outdoor advertising,54,"Professional, scientific and technical services",close,Sign companies; outdoor advertising.
+THEATRE,0,73,512131,Motion picture theatres,51,Information and cultural industries,close,Legacy category; presumed cinema use.
+TORONTO TAXICAB OWNER,578,739,485310,Taxi service,48,Transportation and warehousing,exact,Direct match.
+TOW TRUCK OWNER,0,4848,488410,Motor vehicle towing,48,Transportation and warehousing,exact,"All 4,848 records are cancelled: Ontario moved tow licensing to the province in 2024."
+TRANSIENT TRADER,0,19,44,Retail trade,44,Retail trade,broad,Itinerant retail; no dedicated class.
+VAPOUR PRODUCT RETAILER,377,544,459991,"Tobacco, electronic cigarette and other smoking supplies retailers",44,Retail trade,exact,NAICS 2022 added this class.

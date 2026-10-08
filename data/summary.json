@@ -1,0 +1,833 @@
+{
+  "meta": {
+    "source": "City of Toronto Open Data: Municipal Licensing and Standards - Business Licences and Permits",
+    "source_url": "https://open.toronto.ca/dataset/municipal-licensing-and-standards-business-licences-and-permits/",
+    "retrieved": "2026-10-08",
+    "total_records": 159955,
+    "active_licences": 37469,
+    "cancelled_records": 122486,
+    "categories_total": 92,
+    "categories_mapped": 90,
+    "categories_unmapped": [
+      "** Class record not on file. (138)",
+      "NOISE EXEMPTION"
+    ],
+    "coverage_active_pct": 99.99,
+    "note": "Active = no Cancel Date on the record. NAICS 2022 structure (Statistics Canada)."
+  },
+  "sectors": [
+    {
+      "code": "72",
+      "title": "Accommodation and food services",
+      "active": 16284
+    },
+    {
+      "code": "81",
+      "title": "Other services (except public administration)",
+      "active": 8313
+    },
+    {
+      "code": "48",
+      "title": "Transportation and warehousing",
+      "active": 5229
+    },
+    {
+      "code": "23",
+      "title": "Construction",
+      "active": 3904
+    },
+    {
+      "code": "44",
+      "title": "Retail trade",
+      "active": 1592
+    },
+    {
+      "code": "61",
+      "title": "Educational services",
+      "active": 1162
+    },
+    {
+      "code": "71",
+      "title": "Arts, entertainment and recreation",
+      "active": 331
+    },
+    {
+      "code": "54",
+      "title": "Professional, scientific and technical services",
+      "active": 291
+    },
+    {
+      "code": "52",
+      "title": "Finance and insurance",
+      "active": 152
+    },
+    {
+      "code": "53",
+      "title": "Real estate and rental and leasing",
+      "active": 114
+    },
+    {
+      "code": "56",
+      "title": "Administrative and support, waste management and remediation services",
+      "active": 65
+    },
+    {
+      "code": "41",
+      "title": "Wholesale trade",
+      "active": 28
+    },
+    {
+      "code": "51",
+      "title": "Information and cultural industries",
+      "active": 0
+    }
+  ],
+  "top_categories": [
+    {
+      "category": "EATING OR DRINKING ESTABLISHMENT",
+      "active": 7933,
+      "naics": "722511",
+      "naics_title": "Full-service restaurants",
+      "confidence": "exact"
+    },
+    {
+      "category": "TAKE-OUT OR RETAIL FOOD ESTABLISHMENT",
+      "active": 6446,
+      "naics": "722512",
+      "naics_title": "Limited-service eating places",
+      "confidence": "close"
+    },
+    {
+      "category": "TAXICAB OWNER",
+      "active": 4215,
+      "naics": "485310",
+      "naics_title": "Taxi service",
+      "confidence": "exact"
+    },
+    {
+      "category": "PERSONAL SERVICES SETTINGS",
+      "active": 3556,
+      "naics": "812190",
+      "naics_title": "Other personal care services",
+      "confidence": "close"
+    },
+    {
+      "category": "PUBLIC GARAGE",
+      "active": 2987,
+      "naics": "811111",
+      "naics_title": "General automotive repair",
+      "confidence": "close"
+    },
+    {
+      "category": "BUILDING RENOVATOR",
+      "active": 1438,
+      "naics": "236118",
+      "naics_title": "Residential remodelers",
+      "confidence": "exact"
+    },
+    {
+      "category": "COMMERCIAL PARKING LOT",
+      "active": 1011,
+      "naics": "812930",
+      "naics_title": "Parking lots and garages",
+      "confidence": "exact"
+    },
+    {
+      "category": "MASTER PLUMBER",
+      "active": 961,
+      "naics": "238220",
+      "naics_title": "Plumbing, heating and air-conditioning contractors",
+      "confidence": "exact"
+    },
+    {
+      "category": "DRIVING INSTRUCTOR (V)",
+      "active": 932,
+      "naics": "611692",
+      "naics_title": "Automobile driving schools",
+      "confidence": "exact"
+    },
+    {
+      "category": "PLUMBING CONTRACTOR",
+      "active": 737,
+      "naics": "238220",
+      "naics_title": "Plumbing, heating and air-conditioning contractors",
+      "confidence": "exact"
+    },
+    {
+      "category": "SIDEWALK CAFE",
+      "active": 640,
+      "naics": "722511",
+      "naics_title": "Full-service restaurants",
+      "confidence": "close"
+    },
+    {
+      "category": "TORONTO TAXICAB OWNER",
+      "active": 578,
+      "naics": "485310",
+      "naics_title": "Taxi service",
+      "confidence": "exact"
+    },
+    {
+      "category": "CLOTHING DROP BOX LOCATION PERMIT",
+      "active": 475,
+      "naics": "459510",
+      "naics_title": "Used merchandise retailers",
+      "confidence": "close"
+    },
+    {
+      "category": "LAUNDRY PREMISES",
+      "active": 434,
+      "naics": "812320",
+      "naics_title": "Dry-cleaning and laundry services (except coin-operated)",
+      "confidence": "close"
+    },
+    {
+      "category": "VAPOUR PRODUCT RETAILER",
+      "active": 377,
+      "naics": "459991",
+      "naics_title": "Tobacco, electronic cigarette and other smoking supplies retailers",
+      "confidence": "exact"
+    }
+  ],
+  "wards": [
+    {
+      "ward": "1",
+      "name": "Etobicoke North",
+      "active": 1494,
+      "top_sectors": [
+        {
+          "code": "72",
+          "title": "Accommodation and food services",
+          "active": 540
+        },
+        {
+          "code": "81",
+          "title": "Other services (except public administration)",
+          "active": 426
+        },
+        {
+          "code": "48",
+          "title": "Transportation and warehousing",
+          "active": 244
+        }
+      ]
+    },
+    {
+      "ward": "10",
+      "name": "Spadina-Fort York",
+      "active": 2763,
+      "top_sectors": [
+        {
+          "code": "72",
+          "title": "Accommodation and food services",
+          "active": 1918
+        },
+        {
+          "code": "81",
+          "title": "Other services (except public administration)",
+          "active": 530
+        },
+        {
+          "code": "44",
+          "title": "Retail trade",
+          "active": 112
+        }
+      ]
+    },
+    {
+      "ward": "11",
+      "name": "University-Rosedale",
+      "active": 2383,
+      "top_sectors": [
+        {
+          "code": "72",
+          "title": "Accommodation and food services",
+          "active": 1674
+        },
+        {
+          "code": "81",
+          "title": "Other services (except public administration)",
+          "active": 493
+        },
+        {
+          "code": "44",
+          "title": "Retail trade",
+          "active": 85
+        }
+      ]
+    },
+    {
+      "ward": "12",
+      "name": "Toronto-St. Paul's",
+      "active": 1033,
+      "top_sectors": [
+        {
+          "code": "72",
+          "title": "Accommodation and food services",
+          "active": 553
+        },
+        {
+          "code": "81",
+          "title": "Other services (except public administration)",
+          "active": 292
+        },
+        {
+          "code": "48",
+          "title": "Transportation and warehousing",
+          "active": 66
+        }
+      ]
+    },
+    {
+      "ward": "13",
+      "name": "Toronto Centre",
+      "active": 1907,
+      "top_sectors": [
+        {
+          "code": "72",
+          "title": "Accommodation and food services",
+          "active": 1241
+        },
+        {
+          "code": "81",
+          "title": "Other services (except public administration)",
+          "active": 330
+        },
+        {
+          "code": "48",
+          "title": "Transportation and warehousing",
+          "active": 168
+        }
+      ]
+    },
+    {
+      "ward": "14",
+      "name": "Toronto-Danforth",
+      "active": 1562,
+      "top_sectors": [
+        {
+          "code": "72",
+          "title": "Accommodation and food services",
+          "active": 906
+        },
+        {
+          "code": "81",
+          "title": "Other services (except public administration)",
+          "active": 301
+        },
+        {
+          "code": "48",
+          "title": "Transportation and warehousing",
+          "active": 134
+        }
+      ]
+    },
+    {
+      "ward": "15",
+      "name": "Don Valley West",
+      "active": 845,
+      "top_sectors": [
+        {
+          "code": "72",
+          "title": "Accommodation and food services",
+          "active": 374
+        },
+        {
+          "code": "81",
+          "title": "Other services (except public administration)",
+          "active": 219
+        },
+        {
+          "code": "48",
+          "title": "Transportation and warehousing",
+          "active": 96
+        }
+      ]
+    },
+    {
+      "ward": "16",
+      "name": "Don Valley East",
+      "active": 726,
+      "top_sectors": [
+        {
+          "code": "72",
+          "title": "Accommodation and food services",
+          "active": 281
+        },
+        {
+          "code": "48",
+          "title": "Transportation and warehousing",
+          "active": 148
+        },
+        {
+          "code": "81",
+          "title": "Other services (except public administration)",
+          "active": 148
+        }
+      ]
+    },
+    {
+      "ward": "17",
+      "name": "Don Valley North",
+      "active": 615,
+      "top_sectors": [
+        {
+          "code": "72",
+          "title": "Accommodation and food services",
+          "active": 318
+        },
+        {
+          "code": "81",
+          "title": "Other services (except public administration)",
+          "active": 153
+        },
+        {
+          "code": "23",
+          "title": "Construction",
+          "active": 47
+        }
+      ]
+    },
+    {
+      "ward": "18",
+      "name": "Willowdale",
+      "active": 962,
+      "top_sectors": [
+        {
+          "code": "72",
+          "title": "Accommodation and food services",
+          "active": 521
+        },
+        {
+          "code": "81",
+          "title": "Other services (except public administration)",
+          "active": 243
+        },
+        {
+          "code": "44",
+          "title": "Retail trade",
+          "active": 58
+        }
+      ]
+    },
+    {
+      "ward": "19",
+      "name": "Beaches-East York",
+      "active": 1087,
+      "top_sectors": [
+        {
+          "code": "72",
+          "title": "Accommodation and food services",
+          "active": 573
+        },
+        {
+          "code": "81",
+          "title": "Other services (except public administration)",
+          "active": 239
+        },
+        {
+          "code": "23",
+          "title": "Construction",
+          "active": 80
+        }
+      ]
+    },
+    {
+      "ward": "2",
+      "name": "Etobicoke Centre",
+      "active": 593,
+      "top_sectors": [
+        {
+          "code": "72",
+          "title": "Accommodation and food services",
+          "active": 216
+        },
+        {
+          "code": "23",
+          "title": "Construction",
+          "active": 141
+        },
+        {
+          "code": "81",
+          "title": "Other services (except public administration)",
+          "active": 111
+        }
+      ]
+    },
+    {
+      "ward": "20",
+      "name": "Scarborough Southwest",
+      "active": 1474,
+      "top_sectors": [
+        {
+          "code": "72",
+          "title": "Accommodation and food services",
+          "active": 477
+        },
+        {
+          "code": "81",
+          "title": "Other services (except public administration)",
+          "active": 441
+        },
+        {
+          "code": "48",
+          "title": "Transportation and warehousing",
+          "active": 301
+        }
+      ]
+    },
+    {
+      "ward": "21",
+      "name": "Scarborough Centre",
+      "active": 1513,
+      "top_sectors": [
+        {
+          "code": "72",
+          "title": "Accommodation and food services",
+          "active": 594
+        },
+        {
+          "code": "81",
+          "title": "Other services (except public administration)",
+          "active": 487
+        },
+        {
+          "code": "48",
+          "title": "Transportation and warehousing",
+          "active": 200
+        }
+      ]
+    },
+    {
+      "ward": "22",
+      "name": "Scarborough-Agincourt",
+      "active": 983,
+      "top_sectors": [
+        {
+          "code": "72",
+          "title": "Accommodation and food services",
+          "active": 534
+        },
+        {
+          "code": "81",
+          "title": "Other services (except public administration)",
+          "active": 238
+        },
+        {
+          "code": "23",
+          "title": "Construction",
+          "active": 60
+        }
+      ]
+    },
+    {
+      "ward": "23",
+      "name": "Scarborough North",
+      "active": 1029,
+      "top_sectors": [
+        {
+          "code": "72",
+          "title": "Accommodation and food services",
+          "active": 474
+        },
+        {
+          "code": "81",
+          "title": "Other services (except public administration)",
+          "active": 275
+        },
+        {
+          "code": "23",
+          "title": "Construction",
+          "active": 64
+        }
+      ]
+    },
+    {
+      "ward": "24",
+      "name": "Scarborough-Guildwood",
+      "active": 785,
+      "top_sectors": [
+        {
+          "code": "72",
+          "title": "Accommodation and food services",
+          "active": 330
+        },
+        {
+          "code": "81",
+          "title": "Other services (except public administration)",
+          "active": 183
+        },
+        {
+          "code": "48",
+          "title": "Transportation and warehousing",
+          "active": 99
+        }
+      ]
+    },
+    {
+      "ward": "25",
+      "name": "Scarborough-Rouge Park",
+      "active": 606,
+      "top_sectors": [
+        {
+          "code": "72",
+          "title": "Accommodation and food services",
+          "active": 211
+        },
+        {
+          "code": "81",
+          "title": "Other services (except public administration)",
+          "active": 163
+        },
+        {
+          "code": "48",
+          "title": "Transportation and warehousing",
+          "active": 97
+        }
+      ]
+    },
+    {
+      "ward": "3",
+      "name": "Etobicoke-Lakeshore",
+      "active": 1723,
+      "top_sectors": [
+        {
+          "code": "72",
+          "title": "Accommodation and food services",
+          "active": 772
+        },
+        {
+          "code": "81",
+          "title": "Other services (except public administration)",
+          "active": 557
+        },
+        {
+          "code": "23",
+          "title": "Construction",
+          "active": 169
+        }
+      ]
+    },
+    {
+      "ward": "4",
+      "name": "Parkdale-High Park",
+      "active": 1160,
+      "top_sectors": [
+        {
+          "code": "72",
+          "title": "Accommodation and food services",
+          "active": 690
+        },
+        {
+          "code": "81",
+          "title": "Other services (except public administration)",
+          "active": 249
+        },
+        {
+          "code": "23",
+          "title": "Construction",
+          "active": 68
+        }
+      ]
+    },
+    {
+      "ward": "5",
+      "name": "York South-Weston",
+      "active": 1286,
+      "top_sectors": [
+        {
+          "code": "72",
+          "title": "Accommodation and food services",
+          "active": 528
+        },
+        {
+          "code": "81",
+          "title": "Other services (except public administration)",
+          "active": 364
+        },
+        {
+          "code": "48",
+          "title": "Transportation and warehousing",
+          "active": 162
+        }
+      ]
+    },
+    {
+      "ward": "6",
+      "name": "York Centre",
+      "active": 1518,
+      "top_sectors": [
+        {
+          "code": "81",
+          "title": "Other services (except public administration)",
+          "active": 651
+        },
+        {
+          "code": "72",
+          "title": "Accommodation and food services",
+          "active": 517
+        },
+        {
+          "code": "23",
+          "title": "Construction",
+          "active": 103
+        }
+      ]
+    },
+    {
+      "ward": "7",
+      "name": "Humber River-Black Creek",
+      "active": 1276,
+      "top_sectors": [
+        {
+          "code": "81",
+          "title": "Other services (except public administration)",
+          "active": 504
+        },
+        {
+          "code": "72",
+          "title": "Accommodation and food services",
+          "active": 431
+        },
+        {
+          "code": "48",
+          "title": "Transportation and warehousing",
+          "active": 188
+        }
+      ]
+    },
+    {
+      "ward": "8",
+      "name": "Eglinton-Lawrence",
+      "active": 1243,
+      "top_sectors": [
+        {
+          "code": "72",
+          "title": "Accommodation and food services",
+          "active": 564
+        },
+        {
+          "code": "81",
+          "title": "Other services (except public administration)",
+          "active": 385
+        },
+        {
+          "code": "23",
+          "title": "Construction",
+          "active": 89
+        }
+      ]
+    },
+    {
+      "ward": "9",
+      "name": "Davenport",
+      "active": 1479,
+      "top_sectors": [
+        {
+          "code": "72",
+          "title": "Accommodation and food services",
+          "active": 844
+        },
+        {
+          "code": "81",
+          "title": "Other services (except public administration)",
+          "active": 326
+        },
+        {
+          "code": "48",
+          "title": "Transportation and warehousing",
+          "active": 105
+        }
+      ]
+    }
+  ],
+  "growth": [
+    {
+      "category": "EATING OR DRINKING ESTABLISHMENT",
+      "early": 1063,
+      "late": 2789,
+      "change": 1726,
+      "naics": "722511",
+      "active": 7933
+    },
+    {
+      "category": "TAKE-OUT OR RETAIL FOOD ESTABLISHMENT",
+      "early": 761,
+      "late": 2339,
+      "change": 1578,
+      "naics": "722512",
+      "active": 6446
+    },
+    {
+      "category": "PERSONAL SERVICES SETTINGS",
+      "early": 468,
+      "late": 1307,
+      "change": 839,
+      "naics": "812190",
+      "active": 3556
+    },
+    {
+      "category": "PUBLIC GARAGE",
+      "early": 377,
+      "late": 749,
+      "change": 372,
+      "naics": "811111",
+      "active": 2987
+    },
+    {
+      "category": "EXPANDED EATING/DRINKING ESTABLISHMENT",
+      "early": 0,
+      "late": 362,
+      "change": 362,
+      "naics": "722511",
+      "active": 362
+    },
+    {
+      "category": "CURB LANE CAFE",
+      "early": 0,
+      "late": 302,
+      "change": 302,
+      "naics": "722511",
+      "active": 302
+    },
+    {
+      "category": "SIDEWALK CAFE",
+      "early": 28,
+      "late": 298,
+      "change": 270,
+      "naics": "722511",
+      "active": 640
+    },
+    {
+      "category": "LIMOUSINE OWNER",
+      "early": 7,
+      "late": 261,
+      "change": 254,
+      "naics": "485320",
+      "active": 336
+    },
+    {
+      "category": "COMMERCIAL PARKING LOT",
+      "early": 176,
+      "late": 411,
+      "change": 235,
+      "naics": "812930",
+      "active": 1011
+    },
+    {
+      "category": "VAPOUR PRODUCT RETAILER",
+      "early": 22,
+      "late": 239,
+      "change": 217,
+      "naics": "459991",
+      "active": 377
+    }
+  ],
+  "limitations": [
+    "Active means the record has no Cancel Date; a licence can be inactive in practice while its record lacks a cancel date.",
+    "5,424 active records (14.5%) have no ward; ward analysis covers the remaining 85.5%.",
+    "NAICS mapping is interpretive: Toronto licence categories do not correspond 1:1 with NAICS classes. Confidence is exact for 24 categories, close for 51, broad (sector level) for 15, and none for 2.",
+    "Tow-truck licensing moved to the Province of Ontario in 2024, so all 4,848 tow records are cancelled and the category shows zero active licences.",
+    "The dataset is a point-in-time snapshot; issue dates before 2000 are sparse and may reflect data entry rather than business age."
+  ]
+}
