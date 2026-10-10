@@ -19,7 +19,7 @@ export const metadata: Metadata = {
       "Toronto's 37,469 active business licences joined to NAICS 2022 industry codes. Searchable explorer, sector analysis by ward, REST API, OpenAPI docs, and MCP tools. Open data, MIT licensed.",
     url: "https://licences.canada.nshipyard.com",
     siteName: "Toronto Licence NAICS",
-    images: [{ url: "/og-image.png", width: 1200, height: 750, alt: "Toronto Licence NAICS — business licences mapped to industry" }],
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Toronto Licence NAICS — business licences mapped to industry" }],
     type: "website",
   },
   twitter: {
